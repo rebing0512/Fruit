@@ -1,0 +1,142 @@
+<!-- //swiper滑块视图容器 -->
+<!-- //indicator-dots 是否显示面板指示点 -->
+<!-- autoplay  是否自动切换   interval 自动切换时间间隔-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+
+  <block wx:for="{{imgUrls}}">
+
+    <swiper-item>
+
+      <navigator url="{{item.link}}" hover-class="navigator-hover">
+
+        <image src="{{item.url}}" class="slide-image" width="355" height="150" />
+
+      </navigator>
+
+    </swiper-item>
+
+  </block>
+
+</swiper>
+
+<view class="tubiao">
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+  <view class="tubiao1">
+    <view>
+      <image src="/pages/images/4.jpg" style="width: 44px; height: 44px; border-radius: 100%" />
+    </view>
+    <view>国内进口</view>
+  </view>
+</view>
+
+<view class="hang">
+  <view class="hang1">
+    <view class="hang-title">今日特价</view>
+  </view>
+  <view class="hang1">
+    <view class="hang-title">今日特价</view>
+  </view>
+</view>
+
+
+<view class = "footer">
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+
+  <view class = "footer-a">
+    <view>
+      <image src = "/pages/images/4.jpg" style="width: 160px;height: 160px"/>
+    </view>
+    <view>真的很好吃</view>
+    <view>价格：150￥/斤</view>
+    <view>开始售卖时间：你开心就好!</view>
+  </view>
+
+</view>
